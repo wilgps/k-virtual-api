@@ -8,10 +8,11 @@
     "sourceMap": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "outDir": "dist",    
+    "outDir": "dist",
+    "isolatedModules": true,
     "resolveJsonModule": true,
-    
+    "noFallthroughCasesInSwitch": true
   },
   "include": ["src/**/*"],
-  "exclude": [".vscode", "node_modules", "dist"]
+  "exclude": [".vscode"]
 }
