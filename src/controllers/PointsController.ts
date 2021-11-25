@@ -1,11 +1,23 @@
 import express from "express";
-import { Route, Controller, Tags, Get, Post, Body, Request,Query } from "tsoa";
+import {
+  Route,
+  Controller,
+  Tags,
+  Delete,
+  Get,
+  Post,
+  Body,
+  Request,
+  Query,
+} from "tsoa";
 import { TokenHelper } from "../helpers/TokenHelper";
 import { IPointRequest, IPointResponse } from "../models/dtos/point";
 import PointService from "../services/PointService";
 @Route("/Points")
 @Tags("Points")
 export class PointsController extends Controller {
+  @Delete()
+  public Delete(): void {console.log("")}
   @Get()
   public async Get(@Query() game: string): Promise<IPointResponse[]> {
     const result = await new PointService().ListRank(game);

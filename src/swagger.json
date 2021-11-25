@@ -247,6 +247,19 @@
 			}
 		},
 		"/Points": {
+			"delete": {
+				"operationId": "Delete",
+				"responses": {
+					"204": {
+						"description": "No content"
+					}
+				},
+				"tags": [
+					"Points"
+				],
+				"security": [],
+				"parameters": []
+			},
 			"get": {
 				"operationId": "Get",
 				"responses": {

@@ -6,7 +6,7 @@
     "node": "14.x"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsoa spec-and-routes && tsc",
     "generate": "tsoa routes && tsoa swagger",
     "dev": "concurrently \"nodemon\" \"nodemon -x tsoa spec-and-routes\"",
     "start": "concurrently \"nodemon\" \"nodemon -x tsoa spec-and-routes\""
