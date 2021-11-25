@@ -5,7 +5,8 @@
   "scripts": {
    
     "generate": "tsoa routes && tsoa swagger",
-    "start": "concurrently \"nodemon\" \"nodemon -x tsoa spec-and-routes\""
+    "dev":"concurrently \"nodemon\" \"nodemon -x tsoa spec-and-routes\"",
+    "start": "nodemon"
   },
   "author": "",
   "license": "ISC",
