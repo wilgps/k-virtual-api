@@ -8,12 +8,10 @@
     "sourceMap": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "outDir": "dist",
-    "isolatedModules": true,
+    "outDir": "dist",    
     "resolveJsonModule": true,
-    "noFallthroughCasesInSwitch": true
+    
   },
-  "typeRoots": ["../node_modules/@types", "../@types","./src/models"],
   "include": ["src/**/*"],
-  "exclude": [".vscode"]
+  "exclude": [".vscode", "node_modules", "dist"]
 }
