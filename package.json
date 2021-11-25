@@ -6,7 +6,7 @@
    
     "generate": "tsoa routes && tsoa swagger",
     "dev":"concurrently \"nodemon\" \"nodemon -x tsoa spec-and-routes\"",
-    "run":"nodemon --exec \"ts-node --cache-directory .tscache\" src/index.ts",
+    "run":"node ./build/index.js",
     "start": "nodemon"
   },
   "author": "",
