@@ -13,5 +13,5 @@
     
   },
   "include": ["src/**/*"],
-  "exclude": [".vscode", "node_modules", "dist"]
+  "exclude": [".vscode", "node_modules", "dist","src/**/*Controller.ts"]
 }
