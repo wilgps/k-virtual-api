@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": " tsc",
+    "build": "tsc -b ./tsconfig.json",
     "generate": "tsoa routes && tsoa swagger",
     "start": "concurrently \"nodemon\" \"nodemon -x tsoa spec-and-routes\""
   },
