@@ -13,6 +13,7 @@
     "resolveJsonModule": true,
     "noFallthroughCasesInSwitch": true
   },
+  "typeRoots": ["../node_modules/@types", "../@types","./src/models"],
   "include": ["src/**/*"],
   "exclude": [".vscode"]
 }
