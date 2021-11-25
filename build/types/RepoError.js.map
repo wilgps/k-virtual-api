@@ -1,0 +1,1 @@
+{"version":3,"file":"RepoError.js","sourceRoot":"","sources":["../../src/types/RepoError.ts"],"names":[],"mappings":";;;AAEA,MAAa,SAAU,SAAQ,KAAK;IACzB,IAAI,CAAgB;IAC3B,YAAY,OAAe,EAAE,IAAmB;QAC5C,KAAK,CAAC,OAAO,CAAC,CAAC;QACf,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;IACrB,CAAC;CACJ;AAND,8BAMC"}
